@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+/* Styles the main container */
 .content {
   padding-top: 108px;
   padding-left: 108px;
@@ -10,6 +11,7 @@
   padding-bottom: 180px;
 }
 
+/* Styles the NavBar itself */
 .navbar {
   top: 0px;
   left: 0px;
@@ -26,6 +28,7 @@
   justify-content: center;
 }
 
+/* Styles the items inside NavBar */
 .navbar-content {
   width: 100%;
   height: 100%;
@@ -36,6 +39,7 @@
   justify-content: space-between;
 }
 
+/* Styles the logo on the left inside NavBar */
 .name {
   display: flex;
   font-size: 20px;
@@ -45,6 +49,7 @@
   text-decoration: none;
 }
 
+/* Styles the menu links on the right inside NavBar */
 .menu-links {
   /* width: 100%; Louis's change */
   display: flex;
@@ -52,6 +57,7 @@
   justify-content: flex-end;
 }
 
+/* Styles the individual links in the menu */
 .item {
   margin: 0px 10px;
   font-size: 16px;
@@ -61,6 +67,7 @@
   padding: 5px; /* Louis's change */
 }
 
+/* Styles the Reservations text */
 .reservations {
   font-size: 36px;
   padding-left: 0;
@@ -68,12 +75,14 @@
   font-weight: 300;
 }
 
+/* Styles the container that holds the two reservation boxes */
 .reservation-container {
   justify-content: center;
   display: flex;
   flex-flow: row wrap;
 }
 
+/* Styles an individual reservation box */
 .reservation-box {
   border: solid 1px #c4c4c4;
   padding: 12px;
@@ -90,11 +99,13 @@
   margin: 20px;
 }
 
+/* Styles the reservation title in a reservation box */
 .reservation-title {
   font-size: 22px;
   margin-bottom: 50px;
 }
 
+/* Styles the reservation description in a reservation box */
 .reservation-description {
   font-weight: 300;
   font-size: 15px;
